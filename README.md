@@ -17,6 +17,16 @@
 
 [查看源码](https://github.com/jjh-python667/personal-learning-agent) · [第一版发布记录](https://github.com/jjh-python667/personal-learning-agent/releases/tag/v0.1.0)
 
+### 大肥鱼 · 雨酱
+
+基于 DeepSeek 工作台和开源 SurfCore 搭建的个人 AI 助手，接入 QQ、B 站和本地桌宠。我用 AI 助手协助部署、排错和验收，重点练习跨平台接入和本地服务运维。
+
+- QQ 接入文字、表情和语音，已验证两套语音都能送达。语音模型按需启动，空闲时释放资源。
+- B 站接入回复和 @ 监听，已验证从真实 @ 触发助手到原评论下回复。学习流程结合字幕与抽帧。
+- 接入豆包 Seedream 生图。跨平台记忆按来源管理，QQ 私聊仅以脱敏主题摘要参与同步。
+
+详细部署与验收记录保存在私有仓库。
+
 ## 学习记录与练习
 
 - [python-learning](https://github.com/jjh-python667/python-learning)：从基础语法和简单练习开始的 Python 学习记录。
