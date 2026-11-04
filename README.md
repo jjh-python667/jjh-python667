@@ -25,7 +25,9 @@
 - B 站接入回复和 @ 监听，已验证从真实 @ 触发助手到原评论下回复。学习流程结合字幕与抽帧。
 - 接入豆包 Seedream 生图。跨平台记忆按来源管理，QQ 私聊仅以脱敏主题摘要参与同步。
 
-[查看项目总览、日常运维和验收记录](https://github.com/jjh-python667/yujiang-deepseek)
+已按 MIT 许可开源 QQ / OneBot 登录账号校验和 B 站收件箱读取两项组件。
+
+[查看项目仓库](https://github.com/jjh-python667/yujiang-deepseek) · [查看开源组件与使用方法](https://github.com/jjh-python667/yujiang-deepseek/blob/main/docs/open-source.md)
 
 ## 学习记录与练习
 
