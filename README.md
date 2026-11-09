@@ -1,18 +1,33 @@
 # 你好，我是 jjh-python667
 
+[个人作品集](https://jjh-python667.github.io/) · [案头办公 Agent](https://github.com/jjh-python667/antou-office-agent)
+
 我是一名大一学生，正在学习 Python，也在尝试把 AI 工具用到自己的学习项目中。
 
 目前更关注：把小项目跑起来、理解代码为什么这样写、遇到问题后能复现并修复。项目会如实标注参考来源和 AI 辅助开发情况。
 
 ## 主要项目
 
+### [案头 · ANTOU Office Agent](https://github.com/jjh-python667/antou-office-agent)
+
+**v3.2 · 本地办公助手原型**。角色助手用于讨论与写作，执行 Agent 连续调用文件工具，处理资料、汇总 Excel 并生成 Word。
+
+- Python、SQLite、原生前端、GSAP；预设 7 种模型接入方式。
+- 支持正文流式显示、任务停止、上下文预算、本机会话与任务历史。
+- Windows 下 47 项本地测试通过，包含模拟上游与应用进程重启续接；真实云端 Key 联调和 Office 应用内版式验收待补。
+- 在 AI 助手辅助下开发、审查和验证，保留版本说明与能力边界；公开仓库不包含办公资料、运行数据库或密钥。
+
+[查看源码](https://github.com/jjh-python667/antou-office-agent) · [项目介绍与真实本地截图](https://jjh-python667.github.io/projects/antou-office-agent.html) · [v3.2 改动说明](https://github.com/jjh-python667/antou-office-agent/blob/main/CHANGES-v3.2.md)
+
+
 ### [学习搭子 · Personal Learning Agent](https://github.com/jjh-python667/personal-learning-agent)
 
-**v0.1.0 · 第一版**。通过网页和官方 QQ 机器人使用自己的资料库，按步骤完成讲解、出题、答题和继续学习。
+**v0.4.0 · 当前公开版本**。通过网页和官方 QQ 机器人使用自己的资料库，按步骤完成讲解、出题、答题和继续学习。
 
 - Python、FastAPI、SQLite、DeepSeek API。
 - 支持 PDF、DOCX、TXT、Markdown 的文字导入。
-- 保存学习任务，支持暂停与继续，并记录实际工具执行结果。
+- 保存课程、会话与学习任务，支持暂停与继续，并记录实际工具执行结果。
+- v0.4.0 增加邀请登录和按用户隔离的资料与进度，详见已合入的 PR #1。
 - 代码、测试与部署使用 AI 助手辅助，能力边界和验证范围写在仓库 README 中。
 
 [查看源码](https://github.com/jjh-python667/personal-learning-agent) · [第一版发布记录](https://github.com/jjh-python667/personal-learning-agent/releases/tag/v0.1.0)
