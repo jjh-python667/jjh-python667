@@ -8,6 +8,17 @@
 
 ## 主要项目
 
+### [资讯台 · Newsdesk](https://github.com/jjh-python667/newsdesk)
+
+自己的 AI、科技与商业资讯收件箱，部署在 Cloudflare Workers 与 D1。
+
+- 内置 25 个 RSS / Atom 来源，定时采集、分类搜索、收藏和已读同步。
+- 来源限流与超时有限重试，单源失败隔离，保留最近尝试和最近成功诊断。
+- 原生浏览器开场与滚动动效，适配手机、深色和减少动态效果。
+- 新版前端 24 项本地模拟接口回归通过；线上实例仅本人可登录，36氪采集存在来源拦截限制。
+
+[查看源码](https://github.com/jjh-python667/newsdesk) · [项目介绍与本地演示截图](https://jjh-python667.github.io/projects/newsdesk.html)
+
 ### [案头 · ANTOU Office Agent](https://github.com/jjh-python667/antou-office-agent)
 
 **v3.2 · 本地办公助手原型**。角色助手用于讨论与写作，执行 Agent 连续调用文件工具，处理资料、汇总 Excel 并生成 Word。
