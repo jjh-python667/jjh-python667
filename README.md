@@ -14,7 +14,7 @@
 
 - Python、SQLite、原生前端、GSAP；预设 7 种模型接入方式。
 - 支持正文流式显示、任务停止、上下文预算、本机会话与任务历史。
-- Windows 下 47 项本地测试通过，包含模拟上游与应用进程重启续接；真实云端 Key 联调和 Office 应用内版式验收待补。
+- Windows / Linux 各 47 项自动测试通过，包含模拟上游与应用进程重启续接；真实云端 Key 联调和 Office 应用内版式验收待补。
 - 在 AI 助手辅助下开发、审查和验证，保留版本说明与能力边界；公开仓库不包含办公资料、运行数据库或密钥。
 
 [查看源码](https://github.com/jjh-python667/antou-office-agent) · [项目介绍与真实本地截图](https://jjh-python667.github.io/projects/antou-office-agent.html) · [v3.2 改动说明](https://github.com/jjh-python667/antou-office-agent/blob/main/CHANGES-v3.2.md)
