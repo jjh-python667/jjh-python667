@@ -4,7 +4,7 @@
 
 A design-minded developer building AI products and workflows.
 
-我是人工智能专业的大一学生，Python 课堂还在巩固。现在做的是能打开、能回头检查的小产品：把对话接上文件工具，把资料收成学习步骤，把资讯收成自己的阅读台，再把它们放进作品集。
+我是人工智能专业的大一学生，Python 学到 class（类），仍在巩固。现在做的是能打开、能回头检查的小产品：把对话接上文件工具，把资料收成学习步骤，把资讯收成自己的阅读台，再把它们放进作品集。
 
 [作品集](https://jjh-python667.github.io/) · [案头](https://github.com/jjh-python667/antou-office-agent) · [学习搭子](https://github.com/jjh-python667/personal-learning-agent) · [资讯台](https://github.com/jjh-python667/newsdesk)
 
@@ -191,12 +191,12 @@ flowchart LR
 
 | 顺序 | 内容 | 状态 |
 | --- | --- | --- |
-| 现在 | Python | 课堂巩固中 |
+| 现在 | Python | 学到 class（类），仍在巩固 |
 | 之后 | C / C++ | 准备学 |
 | 之后 | 算法 | 准备学 |
 | 之后 | NumPy | 准备学 |
 
-目标是能自己解释和修改项目里的关键代码。Python 保持「课堂巩固中」。
+目标是能自己解释和修改项目里的关键代码。Python 学到 class（类），仍在巩固。
 
 ## 怎么运行
 
@@ -222,7 +222,7 @@ flowchart LR
 
 ## 下一步
 
-- 继续巩固 Python，直到能自己解释和修改关键代码。
+- 接着巩固 Python 的 class（类），直到能自己解释和修改关键代码。
 - 按上面的顺序开始学 C / C++、算法和 NumPy。
 - 案头补真实服务商联调，并在 Office 应用里看版式。
 - 学习搭子补更接近真实使用的测试，并修使用中遇到的问题。
