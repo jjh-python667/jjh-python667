@@ -32,7 +32,7 @@ Local office assistant (v3.2). It can discuss a task and call tools to produce E
 
 用 Cloudflare Workers 和 D1 汇总公开来源里的优惠；原文没有写明的金额、日期或条件会标成「待核实」。
 
-Public deals board on Cloudflare Workers and D1. A price, date, or condition is marked 待核实 when the source text does not state it.
+Public deals board on Cloudflare Workers and D1. A price, date, or condition is marked “to be verified” when the source text does not state it.
 
 [源码 / Source](https://github.com/jjh-python667/dealhunter) · [线上 / Live](https://dealhunter.gongjiang667.workers.dev/) · [介绍 / About](https://jjh-python667.github.io/projects/dealhunter.html)
 
@@ -52,7 +52,7 @@ Personal inbox for AI, technology, and business news on Cloudflare Workers and D
 
 个人学习 Agent（v0.4.0）：上传 PDF、Word、TXT 或 Markdown，在网页或官方 QQ 机器人里按「讲解 → 出题 → 答题 → 继续」练习。
 
-Personal learning agent (v0.4.0). Upload a PDF, Word, TXT, or Markdown file, then practice explain, quiz, answer, and continue on the web page or through the QQ bot described in the repository.
+Personal learning agent (v0.4.0). Upload a PDF, Word, TXT, or Markdown file, then practice the sequence of explanation, quiz, answer, and continue on the web page or through the QQ bot described in the repository.
 
 [源码 / Source](https://github.com/jjh-python667/personal-learning-agent) · [介绍 / About](https://jjh-python667.github.io/projects/personal-learning-agent.html)
 
@@ -105,12 +105,6 @@ So far it only includes `hello.py`. More exercises (functions, classes, and file
 A Python and Pygame shooter exercise based on the Alien Invasion project in *Python Crash Course* (《Python 编程：从入门到实践》).
 
 [源码 / Source](https://github.com/jjh-python667/star-wars-mini) · [介绍 / About](https://jjh-python667.github.io/projects/star-wars-mini.html)
-
-## 学习安排 / Study plan
-
-现在学 Python。接下来准备学 C / C++、算法、NumPy 和 AI 工作流。
-
-I am learning Python now. Next I plan to study C / C++, algorithms, NumPy, and AI workflows.
 
 欢迎到对应仓库的 Issues 里提问。
 
