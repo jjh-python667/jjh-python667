@@ -19,6 +19,17 @@
 
 [查看源码](https://github.com/jjh-python667/newsdesk) · [项目介绍与本地演示截图](https://jjh-python667.github.io/projects/newsdesk.html)
 
+### [全球羊毛情报中心 · Deal Hunter](https://github.com/jjh-python667/dealhunter)
+
+基于 TypeScript、Cloudflare Workers 和 D1 的公开优惠看板，汇总 AI 工具、云服务和软件等类别的优惠。
+
+- 定时采集公开 RSS / Atom 和官方页面，按来源链接去重。金额、地区、截止日期或参与条件缺少原文依据时，标为「待核实」。
+- 新版本机预览使用 28 条公开优惠记录，展示中文导读、英文原文、组合筛选和浏览器收藏。缺少中文导读时显示原文，来源原文变化后停用对应的旧导读。
+- 仓库记录了 44 项自动测试和 24 项浏览器交互验收，涵盖采集去重、原文回退、语言切换和筛选等场景。
+- 线上可访问基础版。新版界面和后台自动翻译待部署，升级后的真实采集与模型用量待验证。
+
+[查看源码](https://github.com/jjh-python667/dealhunter) · [打开线上基础版](https://dealhunter.gongjiang667.workers.dev/) · [项目介绍与本机截图](https://jjh-python667.github.io/projects/dealhunter.html)
+
 ### [案头 · ANTOU Office Agent](https://github.com/jjh-python667/antou-office-agent)
 
 **v3.2 · 本地办公助手原型**。角色助手用于讨论与写作，执行 Agent 连续调用文件工具，处理资料、汇总 Excel 并生成 Word。
@@ -33,15 +44,16 @@
 
 ### [学习搭子 · Personal Learning Agent](https://github.com/jjh-python667/personal-learning-agent)
 
-**v0.4.0 · 当前公开版本**。通过网页和官方 QQ 机器人使用自己的资料库，按步骤完成讲解、出题、答题和继续学习。
+**v0.4.0 · 邀请试用代码已合入主分支**。上传学习资料后，可在网页按步骤完成讲解、出题、答题和继续学习。官方 QQ 机器人入口限管理员账户使用。
 
 - Python、FastAPI、SQLite、DeepSeek API。
 - 支持 PDF、DOCX、TXT、Markdown 的文字导入。
 - 保存课程、会话与学习任务，支持暂停与继续，并记录实际工具执行结果。
-- v0.4.0 增加邀请登录和按用户隔离的资料与进度，详见已合入的 PR #1。
-- 代码、测试与部署使用 AI 助手辅助，能力边界和验证范围写在仓库 README 中。
+- 管理员可发出和收回试用邀请。注册后，各用户只能访问自己的资料、课程、会话和学习进度。
+- 51 项本地自动测试通过，覆盖双账号隔离、邀请收回、旧数据迁移和配额。手机完整流程、真实 QQ 收发和 DeepSeek 联调待验证。
+- 代码、测试与部署使用 AI 助手辅助，验证范围见验收记录。
 
-[查看源码](https://github.com/jjh-python667/personal-learning-agent) · [第一版发布记录](https://github.com/jjh-python667/personal-learning-agent/releases/tag/v0.1.0)
+[查看源码](https://github.com/jjh-python667/personal-learning-agent) · [项目介绍](https://jjh-python667.github.io/projects/personal-learning-agent.html) · [v0.4.0 改动](https://github.com/jjh-python667/personal-learning-agent/pull/1) · [v0.4.0 验收记录](https://github.com/jjh-python667/personal-learning-agent/blob/main/docs/ACCEPTANCE_v0.4.md)
 
 ### [大肥鱼 · 雨酱](https://github.com/jjh-python667/yujiang-deepseek)
 
