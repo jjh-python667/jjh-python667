@@ -1,82 +1,111 @@
-# 你好，我是 jjh-python667
+# 工匠
 
-[个人作品集](https://jjh-python667.github.io/) · [案头办公 Agent](https://github.com/jjh-python667/antou-office-agent)
+我是人工智能专业的大一学生，正在学 Python。练习和笔记放在公开仓库里。接下来准备学 C / C++、算法、NumPy 和 AI 工作流。
 
-我是一名大一学生，正在学习 Python，也在尝试把 AI 工具用到自己的学习项目中。
+I am a first-year undergraduate majoring in AI, and I am learning Python. Practice and notes are in public repositories. Next I plan to study C / C++, algorithms, NumPy, and AI workflows.
 
-目前更关注：把小项目跑起来、理解代码为什么这样写、遇到问题后能复现并修复。项目会如实标注参考来源和 AI 辅助开发情况。
+**作品集 / Portfolio:** [jjh-python667.github.io](https://jjh-python667.github.io/)
 
-## 主要项目
+[![GitHub public repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjjh-python667&query=%24.public_repos&label=public%20repos&style=flat-square)](https://github.com/jjh-python667?tab=repositories)
+[![GitHub stars received](https://img.shields.io/github/stars/jjh-python667?style=flat-square)](https://github.com/jjh-python667?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/jjh-python667?style=flat-square)](https://github.com/jjh-python667?tab=followers)
 
-### [资讯台 · Newsdesk](https://github.com/jjh-python667/newsdesk)
+下面是九个公开的项目、笔记和练习。
 
-自己的 AI、科技与商业资讯收件箱，部署在 Cloudflare Workers 与 D1。
+Below are nine public projects, notes, and exercises.
 
-- 内置 25 个 RSS / Atom 来源，定时采集、分类搜索、收藏和已读同步。
-- 来源限流与超时有限重试，单源失败隔离，保留最近尝试和最近成功诊断。
-- 原生浏览器开场与滚动动效，适配手机、深色和减少动态效果。
-- 新版前端 24 项本地模拟接口回归通过；线上实例仅本人可登录，36氪采集存在来源拦截限制。
-
-[查看源码](https://github.com/jjh-python667/newsdesk) · [项目介绍与本地演示截图](https://jjh-python667.github.io/projects/newsdesk.html)
-
-### [全球羊毛情报中心 · Deal Hunter](https://github.com/jjh-python667/dealhunter)
-
-基于 TypeScript、Cloudflare Workers 和 D1 的公开优惠看板，汇总 AI 工具、云服务和软件等类别的优惠。
-
-- 定时采集公开 RSS / Atom 和官方页面，按来源链接去重。金额、地区、截止日期或参与条件缺少原文依据时，标为「待核实」。
-- 新版本机预览使用 28 条公开优惠记录，展示中文导读、英文原文、组合筛选和浏览器收藏。缺少中文导读时显示原文，来源原文变化后停用对应的旧导读。
-- 仓库记录了 44 项自动测试和 24 项浏览器交互验收，涵盖采集去重、原文回退、语言切换和筛选等场景。
-- 线上可访问基础版。新版界面和后台自动翻译待部署，升级后的真实采集与模型用量待验证。
-
-[查看源码](https://github.com/jjh-python667/dealhunter) · [打开线上基础版](https://dealhunter.gongjiang667.workers.dev/) · [项目介绍与本机截图](https://jjh-python667.github.io/projects/dealhunter.html)
+## 小项目 / Projects
 
 ### [案头 · ANTOU Office Agent](https://github.com/jjh-python667/antou-office-agent)
 
-**v3.2 · 本地办公助手原型**。角色助手用于讨论与写作，执行 Agent 连续调用文件工具，处理资料、汇总 Excel 并生成 Word。
+`Python · JavaScript · HTML · openpyxl · python-docx`
 
-- Python、SQLite、原生前端、GSAP；预设 7 种模型接入方式。
-- 支持正文流式显示、任务停止、上下文预算、本机会话与任务历史。
-- Windows / Linux 各 47 项自动测试通过，包含模拟上游与应用进程重启续接；真实云端 Key 联调和 Office 应用内版式验收待补。
-- 在 AI 助手辅助下开发、审查和验证，保留版本说明与能力边界；公开仓库不包含办公资料、运行数据库或密钥。
+本地办公助手（v3.2）：可以讨论任务，也可以连续调用工具生成 Excel 和 Word；在本机运行，没有公网 Agent 后端。
 
-[查看源码](https://github.com/jjh-python667/antou-office-agent) · [项目介绍与真实本地截图](https://jjh-python667.github.io/projects/antou-office-agent.html) · [v3.2 改动说明](https://github.com/jjh-python667/antou-office-agent/blob/main/CHANGES-v3.2.md)
+Local office assistant (v3.2). It can discuss a task and call tools to produce Excel and Word. It runs on the local machine and has no public agent backend.
 
+[源码 / Source](https://github.com/jjh-python667/antou-office-agent) · [介绍 / About](https://jjh-python667.github.io/projects/antou-office-agent.html)
+
+### [全球羊毛情报中心 · Deal Hunter](https://github.com/jjh-python667/dealhunter)
+
+`TypeScript · Cloudflare Workers · D1`
+
+用 Cloudflare Workers 和 D1 汇总公开来源里的优惠；原文没有写明的金额、日期或条件会标成「待核实」。
+
+Public deals board on Cloudflare Workers and D1. A price, date, or condition is marked “to be verified” when the source text does not state it.
+
+[源码 / Source](https://github.com/jjh-python667/dealhunter) · [线上 / Live](https://dealhunter.gongjiang667.workers.dev/) · [介绍 / About](https://jjh-python667.github.io/projects/dealhunter.html)
+
+### [资讯台 · Newsdesk](https://github.com/jjh-python667/newsdesk)
+
+`JavaScript · HTML · Cloudflare Workers · D1`
+
+自己的 AI、科技与商业资讯收件箱，用 Cloudflare Workers 和 D1 做 RSS 采集、搜索、收藏和已读同步；部署好的实例需要本人登录。
+
+Personal inbox for AI, technology, and business news on Cloudflare Workers and D1, with RSS collection, search, bookmarks, and read state. The deployed instance requires the owner to sign in.
+
+[源码 / Source](https://github.com/jjh-python667/newsdesk) · [介绍 / About](https://jjh-python667.github.io/projects/newsdesk.html)
 
 ### [学习搭子 · Personal Learning Agent](https://github.com/jjh-python667/personal-learning-agent)
 
-**v0.4.0 · 邀请试用代码已合入主分支**。上传学习资料后，可在网页按步骤完成讲解、出题、答题和继续学习。官方 QQ 机器人入口限管理员账户使用。
+`Python · FastAPI · Uvicorn`
 
-- Python、FastAPI、SQLite、DeepSeek API。
-- 支持 PDF、DOCX、TXT、Markdown 的文字导入。
-- 保存课程、会话与学习任务，支持暂停与继续，并记录实际工具执行结果。
-- 管理员可发出和收回试用邀请。注册后，各用户只能访问自己的资料、课程、会话和学习进度。
-- 51 项本地自动测试通过，覆盖双账号隔离、邀请收回、旧数据迁移和配额。手机完整流程、真实 QQ 收发和 DeepSeek 联调待验证。
-- 代码、测试与部署使用 AI 助手辅助，验证范围见验收记录。
+个人学习 Agent（v0.4.0）：上传 PDF、Word、TXT 或 Markdown，在网页或官方 QQ 机器人里按「讲解 → 出题 → 答题 → 继续」练习。
 
-[查看源码](https://github.com/jjh-python667/personal-learning-agent) · [项目介绍](https://jjh-python667.github.io/projects/personal-learning-agent.html) · [v0.4.0 改动](https://github.com/jjh-python667/personal-learning-agent/pull/1) · [v0.4.0 验收记录](https://github.com/jjh-python667/personal-learning-agent/blob/main/docs/ACCEPTANCE_v0.4.md)
+Personal learning agent (v0.4.0). Upload a PDF, Word, TXT, or Markdown file, then practice the sequence of explanation, quiz, answer, and continue on the web page or through the QQ bot described in the repository.
+
+[源码 / Source](https://github.com/jjh-python667/personal-learning-agent) · [介绍 / About](https://jjh-python667.github.io/projects/personal-learning-agent.html)
+
+### [作品集 · jjh-python667.github.io](https://github.com/jjh-python667/jjh-python667.github.io)
+
+`HTML · CSS · JavaScript · GSAP`
+
+用 GitHub Pages 发布的静态作品集，页面是手写的 HTML、CSS 和 JavaScript，用来介绍这些公开项目。
+
+Static portfolio published with GitHub Pages. The pages are handwritten HTML, CSS, and JavaScript, and they introduce these public projects.
+
+[源码 / Source](https://github.com/jjh-python667/jjh-python667.github.io) · [打开 / Open](https://jjh-python667.github.io/)
 
 ### [大肥鱼 · 雨酱](https://github.com/jjh-python667/yujiang-deepseek)
 
-基于 DeepSeek 工作台和开源 SurfCore 搭建的个人 AI 助手，接入 QQ、B 站和本地桌宠。我用 AI 助手协助部署、排错和验收，重点练习跨平台接入和本地服务运维。
+`JavaScript · Node.js`
 
-- QQ 接入文字、表情和语音，已验证两套语音都能送达。语音模型按需启动，空闲时释放资源。
-- B 站接入回复和 @ 监听，已验证从真实 @ 触发助手到原评论下回复。学习流程结合字幕与抽帧。
-- 接入豆包 Seedream 生图。跨平台记忆按来源管理，QQ 私聊仅以脱敏主题摘要参与同步。
+「雨酱」的个人部署笔记：把本机 DeepSeek 工作台接到 QQ、B 站和桌宠，并附有两项组件，分别做 QQ 登录账号校验和 B 站收件箱读取。
 
-已按 MIT 许可开源 QQ / OneBot 登录账号校验和 B 站收件箱读取两项组件。
+Personal deployment notes for 雨酱: a local DeepSeek workspace connected to QQ, Bilibili, and a desktop pet, plus two components for a QQ login check and a Bilibili inbox reader.
 
-[查看项目仓库](https://github.com/jjh-python667/yujiang-deepseek) · [查看开源组件与使用方法](https://github.com/jjh-python667/yujiang-deepseek/blob/main/docs/open-source.md)
+[源码 / Source](https://github.com/jjh-python667/yujiang-deepseek) · [介绍 / About](https://jjh-python667.github.io/projects/yujiang-deepseek.html)
 
-## 学习记录与练习
+## 笔记和练习 / Notes and practice
 
-- [python-learning](https://github.com/jjh-python667/python-learning)：从基础语法和简单练习开始的 Python 学习记录。
-- [star-wars-mini](https://github.com/jjh-python667/star-wars-mini)：参考教材完成的 Pygame 射击小游戏练习。
-- [grokbot-workflow-notes](https://github.com/jjh-python667/grokbot-workflow-notes)：个人 AI 工具工作流的概念笔记。
+### [grokbot-workflow-notes](https://github.com/jjh-python667/grokbot-workflow-notes)
 
-## 接下来想做
+关于连续对话、异步任务和多角色分工的概念笔记；不是 Grok Bot 的产品源码，仓库里也没有密钥。
 
-- 把 Python 基础补扎实，能自己解释和修改关键代码。
-- 为学习 Agent 增加有实际用途的测试，继续修复真实使用中的问题。
-- 保留学习过程和参考来源，不把尚未验证的能力写成已经完成。
+Conceptual notes on continuous conversation, async tasks, and multi-role work. This is not the Grok Bot product source, and the repository contains no secrets.
 
-欢迎交流学习过程，或到项目的 Issues 提出问题。
+[源码 / Source](https://github.com/jjh-python667/grokbot-workflow-notes) · [介绍 / About](https://jjh-python667.github.io/projects/grokbot-workflow-notes.html)
+
+### [python-learning](https://github.com/jjh-python667/python-learning)
+
+`Python`
+
+目前只放了 `hello.py`，更多练习（函数、类、文件读写）还没整理进仓库。
+
+So far it only includes `hello.py`. More exercises (functions, classes, and file I/O) are not in the repository yet.
+
+[源码 / Source](https://github.com/jjh-python667/python-learning)
+
+### [星球大战 mini · star-wars-mini](https://github.com/jjh-python667/star-wars-mini)
+
+`Python · Pygame`
+
+参考《Python 编程：从入门到实践》里的「外星人入侵」，用 Python 和 Pygame 做的射击小游戏练习。
+
+A Python and Pygame shooter exercise based on the Alien Invasion project in *Python Crash Course* (《Python 编程：从入门到实践》).
+
+[源码 / Source](https://github.com/jjh-python667/star-wars-mini) · [介绍 / About](https://jjh-python667.github.io/projects/star-wars-mini.html)
+
+欢迎到对应仓库的 Issues 里提问。
+
+Questions are welcome in the Issues of the matching repository.
