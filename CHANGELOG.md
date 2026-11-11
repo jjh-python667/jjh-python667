@@ -10,8 +10,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - 三枚 shields.io 徽章：公开仓库数、获得的 star、follower。
 - Three shields.io badges: public repositories, stars received, and followers.
-- MIT 许可证。
-- MIT License.
 
 ### Changed
 

@@ -70,9 +70,9 @@ Static portfolio published with GitHub Pages. The pages are handwritten HTML, CS
 
 `JavaScript · Node.js`
 
-「雨酱」的个人部署笔记：把本机 DeepSeek 工作台接到 QQ、B 站和桌宠，并附有两项 MIT 组件，分别做 QQ 登录账号校验和 B 站收件箱读取。
+「雨酱」的个人部署笔记：把本机 DeepSeek 工作台接到 QQ、B 站和桌宠，并附有两项组件，分别做 QQ 登录账号校验和 B 站收件箱读取。
 
-Personal deployment notes for 雨酱: a local DeepSeek workspace connected to QQ, Bilibili, and a desktop pet, plus two MIT-licensed components for a QQ login check and a Bilibili inbox reader.
+Personal deployment notes for 雨酱: a local DeepSeek workspace connected to QQ, Bilibili, and a desktop pet, plus two components for a QQ login check and a Bilibili inbox reader.
 
 [源码 / Source](https://github.com/jjh-python667/yujiang-deepseek) · [介绍 / About](https://jjh-python667.github.io/projects/yujiang-deepseek.html)
 
