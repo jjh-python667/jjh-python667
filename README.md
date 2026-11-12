@@ -30,11 +30,11 @@ Local office assistant (v3.2). It can discuss a task and call tools to produce E
 
 `TypeScript · Cloudflare Workers · D1`
 
-用 Cloudflare Workers 和 D1 汇总公开来源里的优惠；原文没有写明的金额、日期或条件会标成「待核实」。
+用 Cloudflare Workers 和 D1 汇总公开优惠。门户首页、AI 与云服务频道和可分享的详情页已上线；推荐榜正在 GitHub 审阅。
 
-Public deals board on Cloudflare Workers and D1. A price, date, or condition is marked “to be verified” when the source text does not state it.
+A public deals portal on Cloudflare Workers and D1, with AI and cloud channels and shareable deal pages. The recommendations leaderboard is under review on GitHub.
 
-[源码 / Source](https://github.com/jjh-python667/dealhunter) · [线上 / Live](https://dealhunter.gongjiang667.workers.dev/) · [介绍 / About](https://jjh-python667.github.io/projects/dealhunter.html)
+[源码 / Source](https://github.com/jjh-python667/dealhunter) · [线上 / Live](https://dealhunter.gongjiang667.workers.dev/) · [介绍 / About](https://jjh-python667.github.io/projects/dealhunter.html) · [推荐榜 PR](https://github.com/jjh-python667/dealhunter/pull/4)
 
 ### [资讯台 · Newsdesk](https://github.com/jjh-python667/newsdesk)
 
